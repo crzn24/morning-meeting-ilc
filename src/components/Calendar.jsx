@@ -1,16 +1,28 @@
-import React from 'react'
-// import Fullcalendar from "@fullcalendar/react";
-// import dayGridPlugin from "@fullcalendar/daygrid";
-// import timeGridPlugin from "@fullcalendar/timegrid";
-// import interactionPlugin from "@fullcalendar/interaction";
+import React from "react";
+import Fullcalendar from "@fullcalendar/react";
+import dayGridPlugin from "@fullcalendar/daygrid";
+import timeGridPlugin from "@fullcalendar/timegrid";
+import interactionPlugin from "@fullcalendar/interaction";
 
 const Calendar = () => {
   return (
-    <div>Calendar</div>
-  )
-}
+    <div name="calendar" className="w-full h-screen bg-[#1D1E1F] text-gray-300">
+      <Fullcalendar
+        plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
+        initialView={"dayGridMonth"}
+        headerToolbar={{ start:"", center: "title", end: ""  }}
+        // headerToolbar={{ start:"prev", center: "title", end: "today,next"  }}
+        // headerToolbar={{ start:"prev,next", center: "title", end: "today"  }}
+        // headerToolbar={{ start:"today", center: "title", end: "prev,next"  }}
+        // buttonText={{today: 'Today'}}
+        height={ '100%' }
+        showNonCurrentDates={false}
+      />
+    </div>
+  );
+};
 
-export default Calendar
+export default Calendar;
 
 // import React from "react";
 // import {
