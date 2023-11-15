@@ -15,8 +15,11 @@ const Calendar = () => {
         // headerToolbar={{ start:"prev,next", center: "title", end: "today"  }}
         // headerToolbar={{ start:"today", center: "title", end: "prev,next"  }}
         // buttonText={{today: 'Today'}}
-        height={ '100%' }
+        height={ "100%" }
         showNonCurrentDates={false}
+        // dateClick={this.handleDateClick}
+        selectable={true}
+        
       />
     </div>
   );
