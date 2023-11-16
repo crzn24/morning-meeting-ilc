@@ -1,4 +1,6 @@
+import CalArea from "./components/CalArea";
 import Calendar from "./components/Calendar";
+import DaysWeek from "./components/DaysWeek";
 import Home from "./components/Home";
 import Morning from "./components/Morning";
 import MorningClass from "./components/MorningClass";
@@ -11,7 +13,9 @@ function App() {
       <Home></Home>
       <Morning></Morning>
       <MorningClass></MorningClass>
-      <Calendar></Calendar>
+      <CalArea></CalArea>
+      {/* <Calendar></Calendar> */}
+      <DaysWeek></DaysWeek>
     </div>
   );
 }

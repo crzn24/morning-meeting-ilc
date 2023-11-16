@@ -1,5 +1,14 @@
 import React from "react";
 import placeholder from "../assets/classphotos/placeholder.jpeg";
+import anthony from "../assets/classphotos/an.jpeg"
+import abbas from "../assets/classphotos/ai.jpeg"
+import donnie from "../assets/classphotos/dd.jpeg"
+import elvira from "../assets/classphotos/ez.jpeg"
+import jumanah from "../assets/classphotos/ja.jpeg"
+import jeremiah from "../assets/classphotos/jo.jpeg"
+import kayden from "../assets/classphotos/kd.jpeg"
+import logan from "../assets/classphotos/ls.jpeg"
+import titus from "../assets/classphotos/tw.jpeg"
 
 const MorningClass = () => {
   return (
@@ -19,23 +28,23 @@ const MorningClass = () => {
         {/* container for student photos */}
         <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={elvira} alt="HTML icon" />
             <p className="my-4">Elvira</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={kayden} alt="HTML icon" />
             <p className="my-4">Kayden</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={jeremiah} alt="HTML icon" />
             <p className="my-4">Jeremiah</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={jumanah} alt="HTML icon" />
             <p className="my-4">Jumanah</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={abbas} alt="HTML icon" />
             <p className="my-4">Abbas</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -43,19 +52,19 @@ const MorningClass = () => {
             <p className="my-4">JB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={donnie} alt="HTML icon" />
             <p className="my-4">Donnie</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={logan} alt="HTML icon" />
             <p className="my-4">Logan</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={titus} alt="HTML icon" />
             <p className="my-4">Titus</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={anthony} alt="HTML icon" />
             <p className="my-4">Anthony</p>
           </div>
         </div>

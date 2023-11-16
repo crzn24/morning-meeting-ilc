@@ -3,12 +3,11 @@ import Fullcalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
-import MovingIcon from "./MovingIcon";
+// import MovingIcon from "./MovingIcon";
 
 const Calendar = () => {
   return (
     <div name="calendar" className="w-full h-screen bg-[#1D1E1F] text-gray-300">
-      
       <Fullcalendar
         plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
         initialView={"dayGridMonth"}
