@@ -1,6 +1,7 @@
 Deploying Vite / React App to GitHub Pages
 https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
 
+https://www.youtube.com/watch?v=XhoWXhyuW_I&ab_channel=EK-developer
 
 <!-- # React + Vite
 
