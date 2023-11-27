@@ -1,5 +1,5 @@
 import CalArea from "./components/CalArea";
-import Calendar from "./components/Calendar";
+// import Calendar from "./components/Calendar";
 import DaysWeek from "./components/DaysWeek";
 import Home from "./components/Home";
 import Morning from "./components/Morning";
