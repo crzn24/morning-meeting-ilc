@@ -5,7 +5,7 @@ const DaysWeek = () => {
   return (
     <div name="daysofweek" className="w-full h-screen bg-[#1D1E1F]">
       <div className="grid grid-cols-2 ">
-        <div className="relative">
+        <div className="relative h-screen">
           <div className="hidden lg:flex flex flex-col absolute top-[35%] left-0 font-bold">
             <ul>
               <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-red-600">
@@ -56,8 +56,8 @@ const DaysWeek = () => {
             <li>Saturday</li>
           </ul> */}
         </div>
-        <div>
-          <DaysVideo></DaysVideo>
+        <div className="h-screen ">
+          <DaysVideo className=""></DaysVideo>
         </div>
       </div>
     </div>
