@@ -38,7 +38,14 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500">
-          Feelings
+        <Link to="weather" smooth={true} duration={500}>
+            Weather
+          </Link>
+        </li>
+        <li className="rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500">
+        <Link to="weather" smooth={true} duration={500}>
+            Feelings
+          </Link>
         </li>
       </ul>
 
