@@ -8,7 +8,7 @@ const Home = () => {
       {/* container  */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#f90000] text-lg text-center pb-2">Welcome to</p>
-        <h1 className="text-4xl text-center sm:text-7xl font-bold text-[#ccd6f6] hover:scale-110 duration-500">
+        <h1 className="text-4xl text-center sm:text-7xl font-bold text-[#ccd6f6] hover:scale-150 duration-500">
           ILC
         </h1>
         <h2 className="text-4xl text-center sm:text-7xl font-bold text-[#8892b0]"></h2>
