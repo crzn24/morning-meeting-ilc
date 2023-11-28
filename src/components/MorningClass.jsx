@@ -9,6 +9,12 @@ import jeremiah from "../assets/classphotos/jo.jpeg"
 import kayden from "../assets/classphotos/kd.jpeg"
 import logan from "../assets/classphotos/ls.jpeg"
 import titus from "../assets/classphotos/tw.jpeg"
+import jb from "../assets/classphotos/jl.jpg"
+import pl from "../assets/classphotos/pl.jpg"
+import nb from "../assets/classphotos/nb.jpg"
+import nc from "../assets/classphotos/nc.jpg"
+import sb from "../assets/classphotos/sb.jpg"
+import lw from "../assets/classphotos/lw.jpg"
 
 const MorningClass = () => {
   return (
@@ -22,7 +28,7 @@ const MorningClass = () => {
           <p className="text-4xl font-bold inline border-b-4 border-[#f90000]">
             Good Morning to...
           </p>
-          <p className="py-4"></p>
+          {/* <p className="py-4"></p> */}
         </div>
 
         {/* container for student photos */}
@@ -48,7 +54,7 @@ const MorningClass = () => {
             <p className="my-4">Abbas</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={jb} alt="HTML icon" />
             <p className="my-4">JB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
@@ -72,23 +78,23 @@ const MorningClass = () => {
         {/* container for teacher photos  */}
         <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={pl} alt="HTML icon" />
             <p className="my-4">Mr. Patrick</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={nb} alt="HTML icon" />
             <p className="my-4">Nicky</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={nc} alt="HTML icon" />
             <p className="my-4">Mr. Cruz</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={sb} alt="HTML icon" />
             <p className="my-4">Mrs. Bernert</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={placeholder} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={lw} alt="HTML icon" />
             <p className="my-4">Ms. Washington</p>
           </div>
         </div>
