@@ -5,8 +5,47 @@ const DaysWeek = () => {
   return (
     <div name="daysofweek" className="w-full h-screen bg-[#1D1E1F]">
       <div className="grid grid-cols-2 ">
-        <div>
-          <ul>
+        <div className="relative">
+          <div className="hidden lg:flex flex flex-col absolute top-[35%] left-0 font-bold">
+            <ul>
+              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-red-600">
+                <div className="flex justify-between items-center w-full text-gray-300">
+                  Sunday
+                </div>
+              </li>
+              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-orange-600">
+                <div className="flex justify-between items-center w-full text-gray-300">
+                  Monday
+                </div>
+              </li>
+              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-yellow-600">
+                <div className="flex justify-between items-center w-full text-gray-300">
+                  Tuesday
+                </div>
+              </li>
+              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-green-600">
+                <div className="flex justify-between items-center w-full text-gray-300">
+                  Wednesday
+                </div>
+              </li>
+              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-blue-600">
+                <div className="flex justify-between items-center w-full text-gray-300">
+                  Thursday
+                </div>
+              </li>
+              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-indigo-600">
+                <div className="flex justify-between items-center w-full text-gray-300">
+                  Friday
+                </div>
+              </li>
+              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-violet-600">
+                <div className="flex justify-between items-center w-full text-gray-300">
+                  Saturday
+                </div>
+              </li>
+            </ul>
+          </div>
+          {/* <ul>
             <li>Days of the Week</li>
             <li>Sunday</li>
             <li>Monday</li>
@@ -15,7 +54,7 @@ const DaysWeek = () => {
             <li>Thursday</li>
             <li>Friday</li>
             <li>Saturday</li>
-          </ul>
+          </ul> */}
         </div>
         <div>
           <DaysVideo></DaysVideo>
