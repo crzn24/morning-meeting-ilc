@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-// import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -15,14 +15,14 @@ const Home = () => {
         <p className="text-[#8892b0] py-4 max-w-[700px]"></p>
         <div className="flex flex-col items-center">
           {/* add group to class name and span to keep hover together on button */}
-          {/* <Link to="about" smooth={true} duration={500}> */}
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center  border-[#f90000] rounded-full hover:bg-[#f90000] hover:border-[#f90000]">
-            Let's Go!
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
-          </button>
-          {/* </Link> */}
+          <Link to="morning" smooth={true} duration={500}>
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center  border-[#f90000] rounded-full hover:bg-[#f90000] hover:border-[#f90000]">
+              Let's Go!
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </button>
+          </Link>
 
           {/* <button className='text-white group border-2 px-6 py-3 my-2 flex items-center bg-black border-[#FADE4B] rounded-full hover:border-white hover:shadow-md hover:shadow-[#F8E167]'>View Portfolio 
                     <span className='group-hover:rotate-90 duration-300'>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import BobcatLogo from "../assets/Bobcat.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   // keep state
@@ -22,13 +23,19 @@ const Navbar = () => {
       {/* Nav Menu  */}
       <ul className="hidden md:flex">
         <li className="rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500">
-          Home
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
         </li>
         <li className="rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500">
-          Morning
+          <Link to="morning" smooth={true} duration={500}>
+            Morning
+          </Link>
         </li>
         <li className="rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500">
-          Calendar
+        <Link to="calendar" smooth={true} duration={500}>
+            Calendar
+          </Link>
         </li>
         <li className="rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500">
           Feelings
