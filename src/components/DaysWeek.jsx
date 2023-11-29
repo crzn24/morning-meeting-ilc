@@ -8,27 +8,27 @@ const DaysWeek = () => {
         <div className="relative h-screen">
           <div className="hidden lg:flex flex flex-col absolute top-[35%] left-0 font-bold">
             <ul>
-              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-red-600">
+              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-red-500">
                 <div className="flex justify-between items-center w-full text-gray-300">
                   Sunday
                 </div>
               </li>
-              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-orange-600">
+              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-orange-400">
                 <div className="flex justify-between items-center w-full text-gray-300">
                   Monday
                 </div>
               </li>
-              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-yellow-600">
+              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-yellow-400">
                 <div className="flex justify-between items-center w-full text-gray-300">
                   Tuesday
                 </div>
               </li>
-              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-green-600">
+              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-green-500">
                 <div className="flex justify-between items-center w-full text-gray-300">
                   Wednesday
                 </div>
               </li>
-              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-blue-600">
+              <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-107px] hover:ml-[-10px] duration-300 bg-blue-500">
                 <div className="flex justify-between items-center w-full text-gray-300">
                   Thursday
                 </div>

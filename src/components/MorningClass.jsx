@@ -34,43 +34,43 @@ const MorningClass = () => {
         {/* container for student photos */}
         <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={elvira} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={elvira} alt="class photo" />
             <p className="my-4">Elvira</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={kayden} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={kayden} alt="class photo" />
             <p className="my-4">Kayden</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={jeremiah} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={jeremiah} alt="class photo" />
             <p className="my-4">Jeremiah</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={jumanah} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={jumanah} alt="class photo" />
             <p className="my-4">Jumanah</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={abbas} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={abbas} alt="class photo" />
             <p className="my-4">Abbas</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={jb} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={jb} alt="class photo" />
             <p className="my-4">JB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={donnie} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={donnie} alt="class photo" />
             <p className="my-4">Donnie</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={logan} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={logan} alt="class photo" />
             <p className="my-4">Logan</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={titus} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={titus} alt="class photo" />
             <p className="my-4">Titus</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={anthony} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={anthony} alt="class photo" />
             <p className="my-4">Anthony</p>
           </div>
         </div>
@@ -78,23 +78,23 @@ const MorningClass = () => {
         {/* container for teacher photos  */}
         <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={pl} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={pl} alt="class photo" />
             <p className="my-4">Mr. Patrick</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={nb} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={nb} alt="class photo" />
             <p className="my-4">Nicky</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={nc} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={nc} alt="class photo" />
             <p className="my-4">Mr. Cruz</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={sb} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={sb} alt="class photo" />
             <p className="my-4">Mrs. Bernert</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={lw} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={lw} alt="class photo" />
             <p className="my-4">Ms. Washington</p>
           </div>
         </div>
