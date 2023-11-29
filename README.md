@@ -1,3 +1,6 @@
+Deployed App
+https://crzn24.github.io/morning-meeting-ilc/
+
 Deploying Vite / React App to GitHub Pages
 https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
 
